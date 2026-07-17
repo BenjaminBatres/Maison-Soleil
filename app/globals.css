@@ -9,7 +9,28 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-dm-mono: var(--font-dm-mono);
+  --font-dm-sans: var(--font-dm-sans);
+  --font-fraunces: var(--font-fraunces);
+  --color-Neutral-900: #2b2620;
+  --color-Neutral-800: #3e3428;
+  --color-Neutral-700: #5a4c3c;
+  --color-Neutral-600: #7a6a57; 
+  --color-Neutral-400: #e4ded5;
+  --color-Neutral-200: #f2eeea;
+  --color-Neutral-100: #fbf6ef;
+  --color-Neutral-50: #fdfbf7;
+  --color-Sun-500: #edb63a;
+  --color-Sun-300: #f5d98a;
+  --color-Sun-200: #ffde7a;
+  --color-Sun-50: #fff4dc;
+  --color-Blue-500: #5769c6;
+  --color-Terracotta-700: #9f3e1d;
+  --color-Terracotta-600: #b7411b;
+  --color-Terracotta-500: #c25a2e;
+  --color-Terracotta-400: #e07a3f;
+  --color-Rose-500: #c04a72;
+  --breakpoint-xs-mobile: 30em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +41,7 @@
 }
 
 body {
-  background: var(--background);
+  background-color: var(--color-Neutral-200);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
