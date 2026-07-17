@@ -19,7 +19,7 @@ export default function WelcomeCard() {
         <h3 className="font-fraunces italic text-Sun-200 text-xl mb-2">
           A note from your host,
         </h3>
-        <h2 className="text-[40px] font-fraunces italic tracking-[-0.5px] leading-[120%] text-Sun-5 mb-6">
+        <h2 className="text-[40px] font-fraunces italic tracking-[-0.5px] leading-[120%] text-Sun-50 mb-6">
           Margaux.
         </h2>
         <p className="text-sm font-dm-sans text-Sun-50">
@@ -28,7 +28,7 @@ export default function WelcomeCard() {
         </p>
       </div>
       <div>
-        <p className="font-dm-mono text-[10px] tracking-[1px] uppercase leading-[140%]">
+        <p className="font-dm-mono text-[10px] tracking-[1px] uppercase leading-[140%] text-Sun-50">
           Room
         </p>
         <h3 className="text-xl font-fraunces tracking-[-0.1px] text-Sun-50">
